@@ -1,0 +1,262 @@
+[Running] cd "c:\Users\RV\projects\helloworld\hw05\" && g++ hw05v18.cpp -o hw05v18 && "c:\Users\RV\projects\helloworld\hw05\"hw05v18
+Vineet Rai
+Assignment #4
+April 22, 2020
+
+Created Graph of size 14
+
+Added directed edge from m to q
+Added directed edge from m to r
+Added directed edge from m to s
+Added directed edge from n to o
+Added directed edge from n to q
+Added directed edge from n to u
+Added directed edge from o to r
+Added directed edge from o to v
+Added directed edge from o to s
+Added directed edge from p to o
+Added directed edge from p to s
+Added directed edge from p to z
+Added directed edge from q to t
+Added directed edge from r to u
+Added directed edge from r to y
+Added directed edge from s to r
+Added directed edge from u to t
+Added directed edge from v to x
+Added directed edge from v to w
+Added directed edge from w to z
+Added directed edge from y to v
+
+Adjacency Matrix of Graph:
+     m  n  o  p  q  r  s  t  u  v  w  x  y  z  
+   ------------------------------------------
+m |  0  0  0  0  1  1  1  0  0  0  0  0  0  0 
+n |  0  0  1  0  1  0  0  0  1  0  0  0  0  0 
+o |  0 -1  0 -1  0  1  1  0  0  1  0  0  0  0 
+p |  0  0  1  0  0  0  1  0  0  0  0  0  0  1 
+q | -1 -1  0  0  0  0  0  1  0  0  0  0  0  0 
+r | -1  0 -1  0  0  0 -1  0  1  0  0  0  1  0 
+s | -1  0 -1 -1  0  1  0  0  0  0  0  0  0  0 
+t |  0  0  0  0 -1  0  0  0 -1  0  0  0  0  0 
+u |  0 -1  0  0  0 -1  0  1  0  0  0  0  0  0 
+v |  0  0 -1  0  0  0  0  0  0  0  1  1 -1  0 
+w |  0  0  0  0  0  0  0  0  0 -1  0  0  0  1 
+x |  0  0  0  0  0  0  0  0  0 -1  0  0  0  0 
+y |  0  0  0  0  0 -1  0  0  0  1  0  0  0  0 
+z |  0  0  0 -1  0  0  0  0  0  0 -1  0  0  0 
+
+Calling topoDFS for vertex m
+localseen m is now true
+Calling topoDFS for vertex q
+localseen q is now true
+Calling topoDFS for vertex t
+localseen t is now true
+localseen t is now false
+fullseen t is now true
+t has order number 13
+N is decremented to 12
+localseen q is now false
+fullseen q is now true
+q has order number 12
+N is decremented to 11
+Calling topoDFS for vertex r
+localseen r is now true
+Calling topoDFS for vertex u
+localseen u is now true
+Calling topoDFS for vertex t
+fullseen 7
+localseen u is now false
+fullseen u is now true
+u has order number 11
+N is decremented to 10
+Calling topoDFS for vertex y
+localseen y is now true
+Calling topoDFS for vertex v
+localseen v is now true
+Calling topoDFS for vertex w
+localseen w is now true
+Calling topoDFS for vertex z
+localseen z is now true
+localseen z is now false
+fullseen z is now true
+z has order number 10
+N is decremented to 9
+localseen w is now false
+fullseen w is now true
+w has order number 9
+N is decremented to 8
+Calling topoDFS for vertex x
+localseen x is now true
+localseen x is now false
+fullseen x is now true
+x has order number 8
+N is decremented to 7
+localseen v is now false
+fullseen v is now true
+v has order number 7
+N is decremented to 6
+localseen y is now false
+fullseen y is now true
+y has order number 6
+N is decremented to 5
+localseen r is now false
+fullseen r is now true
+r has order number 5
+N is decremented to 4
+Calling topoDFS for vertex s
+localseen s is now true
+Calling topoDFS for vertex r
+fullseen 5
+localseen s is now false
+fullseen s is now true
+s has order number 4
+N is decremented to 3
+localseen m is now false
+fullseen m is now true
+m has order number 3
+N is decremented to 2
+Calling topoDFS for vertex n
+localseen n is now true
+Calling topoDFS for vertex o
+localseen o is now true
+Calling topoDFS for vertex r
+fullseen 5
+Calling topoDFS for vertex s
+fullseen 6
+Calling topoDFS for vertex v
+fullseen 9
+localseen o is now false
+fullseen o is now true
+o has order number 2
+N is decremented to 1
+Calling topoDFS for vertex q
+fullseen 4
+Calling topoDFS for vertex u
+fullseen 8
+localseen n is now false
+fullseen n is now true
+n has order number 1
+N is decremented to 0
+Calling topoDFS for vertex p
+localseen p is now true
+Calling topoDFS for vertex o
+fullseen 2
+Calling topoDFS for vertex s
+fullseen 6
+Calling topoDFS for vertex z
+fullseen 13
+localseen p is now false
+fullseen p is now true
+p has order number 0
+N is decremented to -1
+
+
+DFS Topological Ordering:
+p n o m s r y v x w z u q t 
+
+
+
+
+
+-------------------------------------------
+
+
+Created Graph of size 8
+
+Added directed edge from 1 to 2
+Added directed edge from 1 to 5
+Added directed edge from 1 to 6
+Added directed edge from 2 to 3
+Added directed edge from 2 to 5
+Added directed edge from 2 to 7
+Added directed edge from 3 to 4
+Added directed edge from 4 to 5
+Added directed edge from 5 to 7
+Added directed edge from 5 to 8
+Added directed edge from 6 to 5
+Added directed edge from 6 to 8
+Added directed edge from 7 to 4
+Added directed edge from 7 to 8
+
+Adjacency Matrix of Graph:
+     1  2  3  4  5  6  7  8  
+   ------------------------
+1 |  0  1  0  0  1  1  0  0 
+2 | -1  0  1  0  1  0  1  0 
+3 |  0 -1  0  1  0  0  0  0 
+4 |  0  0 -1  0  1  0 -1  0 
+5 | -1 -1  0 -1  0 -1  1  1 
+6 | -1  0  0  0  1  0  0  1 
+7 |  0 -1  0  1 -1  0  0  1 
+8 |  0  0  0  0 -1 -1 -1  0 
+
+Calling topoDFS for vertex 1
+localseen 1 is now true
+Calling topoDFS for vertex 2
+localseen 2 is now true
+Calling topoDFS for vertex 3
+localseen 3 is now true
+Calling topoDFS for vertex 4
+localseen 4 is now true
+Calling topoDFS for vertex 5
+localseen 5 is now true
+Calling topoDFS for vertex 7
+localseen 7 is now true
+Calling topoDFS for vertex 4
+
+**Cycle found.**
+
+Calling topoDFS for vertex 8
+localseen 8 is now true
+localseen 8 is now false
+fullseen 8 is now true
+8 has order number 7
+N is decremented to 6
+localseen 7 is now false
+fullseen 7 is now true
+7 has order number 6
+N is decremented to 5
+Calling topoDFS for vertex 8
+fullseen 7
+localseen 5 is now false
+fullseen 5 is now true
+5 has order number 5
+N is decremented to 4
+localseen 4 is now false
+fullseen 4 is now true
+4 has order number 4
+N is decremented to 3
+localseen 3 is now false
+fullseen 3 is now true
+3 has order number 3
+N is decremented to 2
+Calling topoDFS for vertex 5
+fullseen 4
+Calling topoDFS for vertex 7
+fullseen 6
+localseen 2 is now false
+fullseen 2 is now true
+2 has order number 2
+N is decremented to 1
+Calling topoDFS for vertex 5
+fullseen 4
+Calling topoDFS for vertex 6
+localseen 6 is now true
+Calling topoDFS for vertex 5
+fullseen 4
+Calling topoDFS for vertex 8
+fullseen 7
+localseen 6 is now false
+fullseen 6 is now true
+6 has order number 1
+N is decremented to 0
+localseen 1 is now false
+fullseen 1 is now true
+1 has order number 0
+N is decremented to -1
+
+There is no topological ordering because of the cycle.
+
+
+[Done] exited with code=0 in 0.801 seconds
+
