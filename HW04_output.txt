@@ -1,0 +1,123 @@
+[Running] cd "c:\Users\RV\projects\helloworld\" && g++ h04v10.cpp -o h04v10 && "c:\Users\RV\projects\helloworld\"h04v10
+Vineet Rai
+Assignment #4
+April 4, 2020
+
+Creating graph of 20 vertices and 20 edges:
+
+Added edge between vertices 0 and 1
+Added edge between vertices 0 and 11
+Added edge between vertices 0 and 14
+Added edge between vertices 1 and 5
+Added edge between vertices 1 and 9
+Added edge between vertices 1 and 10
+Added edge between vertices 2 and 10
+Added edge between vertices 2 and 11
+Added edge between vertices 2 and 17
+Added edge between vertices 3 and 12
+Added edge between vertices 3 and 13
+Added edge between vertices 4 and 6
+Added edge between vertices 4 and 7
+Added edge between vertices 4 and 8
+Added edge between vertices 4 and 14
+Added edge between vertices 5 and 15
+Added edge between vertices 5 and 19
+Added edge between vertices 6 and 7
+Added edge between vertices 6 and 14
+Added edge between vertices 7 and 14
+Added edge between vertices 8 and 14
+Added edge between vertices 10 and 11
+Added edge between vertices 11 and 18
+Added edge between vertices 12 and 13
+Added edge between vertices 15 and 16
+
+Adjacency Matrix of Graph:
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+DFS Traversal of the Graph:
+0 1 5 15 16 19 9 10 2 11 18 17 14 4 6 7 8 3 12 13 
+
+BFS Traversal of the Graph:
+0 1 11 14 5 9 10 2 18 4 6 7 8 15 19 17 16 3 12 13 
+[Done] exited with code=0 in 0.459 seconds
+
+[Running] cd "c:\Users\RV\projects\helloworld\" && g++ h04v10.cpp -o h04v10 && "c:\Users\RV\projects\helloworld\"h04v10
+Vineet Rai
+Assignment #4
+April 4, 2020
+
+Creating graph of 20 vertices and 20 edges:
+
+Added edge between vertices 0 and 1
+Added edge between vertices 0 and 11
+Added edge between vertices 0 and 14
+Added edge between vertices 1 and 5
+Added edge between vertices 1 and 9
+Added edge between vertices 1 and 10
+Added edge between vertices 2 and 10
+Added edge between vertices 2 and 11
+Added edge between vertices 2 and 17
+Added edge between vertices 3 and 12
+Added edge between vertices 3 and 13
+Added edge between vertices 4 and 6
+Added edge between vertices 4 and 7
+Added edge between vertices 4 and 8
+Added edge between vertices 4 and 14
+Added edge between vertices 5 and 15
+Added edge between vertices 5 and 19
+Added edge between vertices 6 and 7
+Added edge between vertices 6 and 14
+Added edge between vertices 7 and 14
+Added edge between vertices 8 and 14
+Added edge between vertices 10 and 11
+Added edge between vertices 11 and 18
+Added edge between vertices 12 and 13
+Added edge between vertices 15 and 16
+
+Adjacency Matrix of Graph:
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 
+1 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 
+0 0 0 0 0 0 1 1 1 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+DFS Traversal of the Graph:
+0 1 5 15 16 19 9 10 2 11 18 17 14 4 6 7 8 3 12 13 
+
+BFS Traversal of the Graph:
+0 1 11 14 5 9 10 2 18 4 6 7 8 15 19 17 16 3 12 13 
+[Done] exited with code=0 in 0.47 seconds

@@ -1,0 +1,152 @@
+[Running] cd "c:\Users\RV\Google Drive\S20\CS 5343\Assignments\HW06\upload\" && g++ hw06.Rai.Vineet.cpp -o hw06.Rai.Vineet && "c:\Users\RV\Google Drive\S20\CS 5343\Assignments\HW06\upload\"hw06.Rai.Vineet
+Vineet Rai
+Assignment #6
+April 29, 2020
+
+created HashTable object
+the current tableSize is 31
+
+"pyramids"
+insertHash at index 27
+
+"station"
+insertHash at index 9
+
+"African"
+insertHash at index 6
+
+"The"
+insertHash at index 29
+
+"John Doe"
+insertHash at index 20
+
+"Ohio"
+insertHash at index 4
+
+"military"
+insertHash at index 12
+
+"internet"
+insertHash at index 26
+
+"leopard"
+insertHash at index 16
+
+"USA"
+collision (1) found at index 27
+trying quadratic probing...
+insertHash at index 28
+
+"island"
+insertHash at index 7
+
+"album"
+insertHash at index 22
+
+"north"
+insertHash at index 10
+
+"singer"
+insertHash at index 5
+
+"Luggage"
+insertHash at index 3
+
+"series"
+collision (2) found at index 5
+trying quadratic probing...
+collision (3) found at index 6
+collision (4) found at index 9
+insertHash at index 14
+
+16 items have been hashed
+the tableSize is currently 31
+the load factor is now 0.516129 >= 0.5
+clearing the hash table and expanding tableSize...
+63 % 3 == 0
+65 % 3 == 2
+65 % 4 == 1
+65 % 5 == 0
+67 % 3 == 1
+67 % 4 == 3
+67 % 5 == 2
+67 % 6 == 1
+67 % 7 == 4
+67 % 8 == 3
+67 % 9 == 4
+found the smallest prime more than double the previous size
+the new hash table has size 67
+starting hashing process again
+
+"pyramids"
+insertHash at index 41
+
+"station"
+insertHash at index 43
+
+"African"
+insertHash at index 34
+
+"The"
+insertHash at index 20
+
+"John Doe"
+insertHash at index 48
+
+"Ohio"
+insertHash at index 56
+
+"military"
+insertHash at index 29
+
+"internet"
+insertHash at index 17
+
+"leopard"
+insertHash at index 15
+
+"USA"
+insertHash at index 40
+
+"island"
+insertHash at index 54
+
+"album"
+collision (5) found at index 56
+trying quadratic probing...
+insertHash at index 57
+
+"north"
+insertHash at index 24
+
+"singer"
+insertHash at index 32
+
+"Luggage"
+insertHash at index 28
+
+"series"
+insertHash at index 14
+
+"urban"
+insertHash at index 63
+
+"marine"
+insertHash at index 11
+
+"radio"
+insertHash at index 22
+
+"rugby"
+collision (6) found at index 14
+trying quadratic probing...
+collision (7) found at index 15
+insertHash at index 18
+
+fillCount is 20
+loadFactor is 0.298507
+total collisions is 7
+
+[Done] exited with code=0 in 0.493 seconds
+

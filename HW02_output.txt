@@ -1,0 +1,22 @@
+Vineet Rai
+Assignment #2
+February 23, 2020
+
+Root set as 50
+inserted 40
+inserted 80
+inserted 20
+inserted 45
+inserted 60
+inserted 100
+inserted 70
+inserted 65
+inserted 42
+inserted 44
+inserted 30
+inserted 25
+inserted 35
+inserted 33
+
+In Order Traversal: 
+20 25 30 33 35 40 42 44 45 50 60 65 70 80 100 

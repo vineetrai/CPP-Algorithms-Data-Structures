@@ -1,0 +1,16 @@
+Vineet Rai
+Assignment #1
+February 8, 2020
+
+Please enter the number of nodes for the linked list.
+15
+
+An unsorted linked list of size 15:
+8 9 13 7 5 7 10 5 10 12 3 5 2 11 0
+
+The same linked list, sorted:
+0 2 3 5 5 5 7 7 8 9 10 10 11 12 13
+
+
+
+Enter any key to continue.
